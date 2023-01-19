@@ -1,0 +1,23 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 100px;
+    margin-right: 35px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0); 
+    text-decoration:none; 
+    cursor:pointer;  
+}
