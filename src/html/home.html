@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Clone</title>
+        <link rel="stylesheet" href="/src/css/videos.css"/>
+        <link rel="stylesheet" href="/src/css/header.css"/>
+        <link rel="stylesheet" href="/src/css/general.css"/>
+        <link rel="stylesheet" href="/src/css/sidebar.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="left_section">
+                <button class="hamburger_button">
+                    <img class="hamburger_menu" src="/resources/icons/hamburger-menu.svg">
+                </button>
+                <a href="https://www.youtube.com/"><img class="youtube_logo" src="/resources/icons/youtube-logo.svg"></a>
+            </div>
+
+            <div class="middle_section">
+                <input class="search_bar" type="text" placeholder="Search">
+                <button class="search_button">
+                    <img class="search_icon" src="/resources/icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice_search_button">
+                    <img class="voice_search_icon" src="/resources/icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+
+            <div class="right_section">
+                <button class="upload_button">
+                    <img class="upload_icon" src="/resources/icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </button>
+                <button class="noti_button">
+                    <div class="noti_container">
+                        <img class="noti_icon" src="/resources/icons/notifications.svg">
+                        <div class="tooltip">Notifications</div>
+                        <div class="noti_count">2</div>
+                    </div>
+                </button>
+                <img class="user_icon" src="/resources/channel-profile-pictures/default_profile.jpeg">
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar_link">
+                <a href="https://www.youtube.com/"><img src="/resources/icons/home.svg"></a>
+                <div>Home</div>
+            </div>
+            <div class="sidebar_link">
+                <a href="https://www.youtube.com/shorts/WFbJZDE0pZs"><img src="/resources/icons/youtube-shorts-logo-15252.png"></a>
+                <div>Shorts</div>
+            </div>
+            <div class="sidebar_link">
+                <a href="https://www.youtube.com/feed/subscriptions"><img src="/resources/icons/subscriptions.svg"></a>
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar_link">
+                <a href="https://www.youtube.com/feed/library"><img src="/resources/icons/library.svg"></a>
+                <div>Library</div>
+            </div>
+        </div>
+
+        <div class="suggestion">
+            <div class="suggestion-tags">
+                <div class="tag">All</div>
+                <div class="tag">News</div>
+                <div class="tag">Music</div>
+                <div class="tag">History</div>
+                <div class="tag">Live</div>
+                <div class="tag">Dogs</div>
+                <div class="tag">Comedy</div>
+                <div class="tag">Sports</div>
+                <div class="tag">New to you</div>
+                <div class="tag">Puzzles</div>
+                <div class="tag">Fashion</div>
+                <div class="tag">Tools</div>
+                <div class="tag">Movies</div>
+                <div class="tag">Cooking</div>
+                <div class="tag">Physics</div>
+                <div class="tag">Tourist Destination</div>
+                <div class="tag">Consumer Electronics</div>
+                <div class="tag">Driving</div>
+                <div class="tag">Eating</div>
+                <div class="tag">TV Shows</div>
+                <div class="tag">Mystery</div>
+                <div class="tag">Game Shows</div>
+                <div class="tag">Horror</div>
+                <div class="tag">Laughter</div>
+            </div>
+        </div>
+
+        <div class="videos_grid">
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <a href="https://www.youtube.com/watch?v=7IKab3HcfFk&ab_channel=MrBeast"><img class="thumbnail" src="/resources/thumbnails/hq720 (1).webp"></a>
+                    <div class="video_length">12:10</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <a href="https://www.youtube.com/@MrBeast"><img class="channel_profile_picture" src ="/resources/channel-profile-pictures/mrbeast.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=7IKab3HcfFk&ab_channel=MrBeast"><p class="video_title">I Survived 50 Hours In Antarctica</p></a>
+                        <a href="https://www.youtube.com/@MrBeast"><p class="creator_name">MrBeast &#10003;</p></a>
+                        <p class="video_stats">48M views &#183; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <a href="https://www.youtube.com/watch?v=5NjFuS_24v8&ab_channel=MarquesBrownlee"><img class="thumbnail" src="/resources/thumbnails/hq720.webp"></a>
+                    <div class="video_length">20:11</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <a href="https://www.youtube.com/@mkbhd"><img class="channel_profile_picture" src ="/resources/channel-profile-pictures/marques.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=5NjFuS_24v8&ab_channel=MarquesBrownlee"><p class="video_title">Smartphone Awards 2022!</p></a>
+                        <a href="https://www.youtube.com/@mkbhd"><p class="creator_name">Marques Brownlee &#10003;</p></a>
+                        <p class="video_stats">281K views &#183; 4 hours ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <a href="https://www.youtube.com/watch?v=z3BNStfB9KI&ab_channel=NFL"><img class="thumbnail" src="/resources/thumbnails/nfl_thumb.jpeg"></a>
+                    <div class="video_length">12:38</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <a href="https://www.youtube.com/@NFL"><img class="channel_profile_picture" src ="/resources/channel-profile-pictures/nfl.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=z3BNStfB9KI&ab_channel=NFL"><p class="video_title">Los Angeles Chargers vs. Indianapolis Colts | 2022 Week 16 Game Highlights</p></a>
+                        <a href="https://www.youtube.com/@NFL"><p class="creator_name">NFL &#10003;</p></a>
+                        <p class="video_stats">759K views &#183; 22 hours ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <a href="https://www.youtube.com/watch?v=rjRvgUBwUz0&ab_channel=jacksepticeye"><img class="thumbnail" src="/resources/thumbnails/jack_thumb.jpeg"></a>
+                    <div class="video_length">2:04:00</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <a href="https://www.youtube.com/@jacksepticeye"><img class="channel_profile_picture" src ="/resources/channel-profile-pictures/jack.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=rjRvgUBwUz0&ab_channel=jacksepticeye"><p class="video_title">God of War Ragnarok - Part 1</p></a>
+                        <a href="https://www.youtube.com/@jacksepticeye"><p class="creator_name">jacksepticeye &#10003;</p></a>
+                        <p class="video_stats">8.7M views &#183; 1 month ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <a href="https://www.youtube.com/watch?v=rfscVS0vtbw&ab_channel=freeCodeCamp.org"><img class="thumbnail" src="/resources/thumbnails/freecodecamo_thumb.jpeg"></a>
+                    <div class="video_length">4:26:52</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <a href="https://www.youtube.com/@freecodecamp"><img class="channel_profile_picture" src ="/resources/channel-profile-pictures/fcc.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=rfscVS0vtbw&ab_channel=freeCodeCamp.org"><p class="video_title">Learn Python - Full Course for Beginners [Tutorial]</p></a>
+                        <a href="https://www.youtube.com/@freecodecamp"><p class="creator_name">freeCodeCamp.org &#10003;</p></a>
+                        <p class="video_stats">38M views &#183; 5 years ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <a href="https://www.youtube.com/watch?v=iTWA6mVSCkk&ab_channel=SaturdayNightLive"><img class="thumbnail" src="/resources/thumbnails/snl_thumb.webp"></a>
+                    <div class="video_length">3:57</div>
+                </div>
+                <div class="video_info_grid">
+                   <div class="channel_profile ">
+                        <a href="https://www.youtube.com/@SaturdayNightLive/featured"><img class="channel_profile_picture" src ="/resources/channel-profile-pictures/snl.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=iTWA6mVSCkk&ab_channel=SaturdayNightLive"><p class="video_title">Barber Shop Talk - SNL</p></a>
+                        <a href="https://www.youtube.com/@SaturdayNightLive/featured"><p class="creator_name">Saturday Night Live &#10003;</p></a>
+                        <p class="video_stats">4.6M views &#183; 1 month ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <a href="https://www.youtube.com/watch?v=sc6vH4qDvtw&ab_channel=StarWars"><img class="thumbnail" src="/resources/thumbnails/starwars_thumb.webp"></a>
+                    <div class="video_length">0:31</div>
+                </div>
+                <div class="video_info_grid">
+                   <div class="channel_profile ">
+                        <a href="https://www.youtube.com/@StarWars"><img class="channel_profile_picture" src ="/resources/channel-profile-pictures/starwars_profile.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=sc6vH4qDvtw&ab_channel=StarWars"><p class="video_title">Star Wars: The Bad Batch Season 2 | Mission | Disney+</p></a>
+                        <a href="https://www.youtube.com/@StarWars"><p class="creator_name">Star Wars &#10003;</p></a>
+                        <p class="video_stats">729K views &#183; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <a href="https://www.youtube.com/watch?v=nBOEwmDxjfU&ab_channel=NBA"><img class="thumbnail" src="/resources/thumbnails/nba_thumb.webp"></a>
+                    <div class="video_length">9:58</div>
+                </div>
+                <div class="video_info_grid">
+                   <div class="channel_profile ">
+                        <a href="https://www.youtube.com/@NBA"><img class="channel_profile_picture" src ="/resources/channel-profile-pictures/nba_profile.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <a href="https://www.youtube.com/watch?v=nBOEwmDxjfU&ab_channel=NBA"><p class="video_title">KNICKS at MAVERICKS | FULL GAME HIGHLIGHTS | December 27, 2022</p></a>
+                        <a href="https://www.youtube.com/@NBA"><p class="creator_name">NBA &#10003;</p></a>
+                        <p class="video_stats">1.5M views &#183; 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shorts-section">
+            <div class="shorts-header"><img class="shorts-logo-filled" src="/resources/icons/youtube-shorts-filled.png">Shorts</div>
+            <div class="shorts-grid">
+                <div class="shorts-preview">
+                    <div class="shorts-row">
+                        <a href=""><img class="shorts-thumbnail" src="/resources/shorts-thumbnails/deer.jpeg"></a>
+                    </div>
+                    <div class="shorts-details">
+                        <p class="shorts-title">HE Saved This Scared Deer &#128561; | Wholesome Moments</p>
+                        <p class="video_stats">1.5M views &#183;</p>
+                    </div>
+                </div>
+
+                <div class="shorts-preview">
+                    <div class="shorts-row">
+                        <a href=""><img class="shorts-thumbnail" src="/resources/shorts-thumbnails/dog.jpeg"></a>
+                    </div>
+                    <div class="shorts-details">
+                        <p class="shorts-title">Cute dog lol &#128525;</p>
+                        <p class="video_stats">8.4M views &#183;</p>
+                    </div>
+                </div>
+
+                <div class="shorts-preview">
+                    <div class="shorts-row">
+                        <a href=""><img class="shorts-thumbnail" src="/resources/shorts-thumbnails/jackblack.webp"></a>
+                    </div>
+                    <div class="shorts-details">
+                        <p class="shorts-title">Jack Black Plays The Worlds Rarest Instrument</p>
+                        <p class="video_stats">19M views &#183;</p>
+                    </div>
+                </div>
+
+                <div class="shorts-preview">
+                    <div class="shorts-row">
+                        <a href=""><img class="shorts-thumbnail" src="/resources/shorts-thumbnails/voice.webp"></a>
+                    </div>
+                    <div class="shorts-details">
+                        <p class="shorts-title">When your voice isn't high enough &#128514;</p>
+                        <p class="video_stats">23M views &#183;</p>
+                    </div>
+                </div>
+
+                <div class="shorts-preview">
+                    <div class="shorts-row">
+                        <a href=""><img class="shorts-thumbnail" src="/resources/shorts-thumbnails/ww2.webp"></a>
+                    </div>
+                    <div class="shorts-details">
+                        <p class="shorts-title">97 year old WW2 veterangets his lifetime dream come true!</p>
+                        <p class="video_stats">60M views &#183;</p>
+                    </div>
+                </div>
+
+                <div class="shorts-preview">
+                    <div class="shorts-row">
+                        <a href=""><img class="shorts-thumbnail" src="/resources/shorts-thumbnails/pug.webp"></a>
+                    </div>
+                    <div class="shorts-details">
+                        <p class="shorts-title">Pug chase! &#128525;</p>
+                        <p class="video_stats">68M views &#183;</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="videos_grid">
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <img class="thumbnail" src="/resources/thumbnails/mojo.jpeg"></a>
+                    <div class="video_length">24:57</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <img class="channel_profile_picture" src ="/resources/channel-profile-pictures/mojo.jpg"></a>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">Top 20 SNL Impressions Done Infront of an Actual Person</p></a>
+                        <p class="creator_name">WatchMojo.com &#10003;</p></a>
+                        <p class="video_stats">2M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <img class="thumbnail" src="/resources/thumbnails/nuclear.jpeg"></a>
+                    <div class="video_length">13:11</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <img class="channel_profile_picture" src ="/resources/channel-profile-pictures/60m"></a>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">Nuclear Fusion: Inside the breakthrough that could change our world</p></a>
+                        <p class="creator_name">60 Minutes &#10003;</p></a>
+                        <p class="video_stats">1.2M views &#183; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <img class="thumbnail" src="/resources/thumbnails/idiot.jpeg"></a>
+                    <div class="video_length">9:04</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <img class="channel_profile_picture" src ="/resources/channel-profile-pictures/cube.jpg"></a>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">IDIOTS AT WORK!</p></a>
+                        <p class="creator_name">CubeHub101</p></a>
+                        <p class="video_stats">3M views &#183; 11 days ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <img class="thumbnail" src="/resources/thumbnails/military.jpeg"></a>
+                    <div class="video_length">24:39</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <img class="channel_profile_picture" src ="/resources/channel-profile-pictures/veritasium.jpg"></a>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">Testing the US Military's Worst Idea</p></a>
+                        <p class="creator_name">Veritasium &#10003;</p></a>
+                        <p class="video_stats">5M views &#183; 4 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <img class="thumbnail" src="/resources/thumbnails/bbq.jpeg"></a>
+                    <div class="video_length">29:44</div>
+                </div>
+                <div class="video_info_grid">
+                    <div class="channel_profile ">
+                        <img class="channel_profile_picture" src ="/resources/channel-profile-pictures/alvin.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">Day in the Life of The #1 BBQ in Texas</p></a>
+                        <p class="creator_name">Alvin Zhou Films &#10003;</p></a>
+                        <p class="video_stats">9.2 views &#183; 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <img class="thumbnail" src="/resources/thumbnails/larry.jpeg"></a>
+                    <div class="video_length">18:35</div>
+                </div>
+                <div class="video_info_grid">
+                   <div class="channel_profile ">
+                        <img class="channel_profile_picture" src ="/resources/channel-profile-pictures/larry.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">The Best Larry Bird vs Michael Jordan Story Ever Told</p></a>
+                        <p class="creator_name">Prime Larry Bird &#10003;</p></a>
+                        <p class="video_stats">1.5M views &#183; 1 month ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <img class="thumbnail" src="/resources/thumbnails/comedian.jpeg"></a>
+                    <div class="video_length">8:54</div>
+                </div>
+                <div class="video_info_grid">
+                   <div class="channel_profile ">
+                        <img class="channel_profile_picture" src ="/resources/channel-profile-pictures/triggernometry.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">Comedian Leaves OXford Union SPEECHLESS</p></a>
+                        <p class="creator_name">Triggernometry &#10003;</p></a>
+                        <p class="video_stats">3.8M views &#183; 5 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <div class="thumbnail_row">
+                    <img class="thumbnail" src="/resources/thumbnails/bee.jpeg"></a>
+                    <div class="video_length">15:22</div>
+                </div>
+                <div class="video_info_grid">
+                   <div class="channel_profile ">
+                        <img class="channel_profile_picture" src ="/resources/channel-profile-pictures/wired.jpeg"></a>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">Beekeeper Answers Bee Questions From Twitter | Tech Support | WIRED</p></a>
+                        <p class="creator_name">WIRED &#10003;</p></a>
+                        <p class="video_stats">2.3M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
